@@ -1,1 +1,0 @@
-== POC Project Configuration Server
