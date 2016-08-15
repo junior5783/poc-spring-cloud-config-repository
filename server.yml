@@ -1,0 +1,26 @@
+spring:  
+  profiles: dev
+soa:  
+  port: 80
+  sever: dev-soa.qualifacts.com
+mule:
+  port: 80
+  sever: dev-mule.qualifacts.com
+---
+spring:  
+  profiles: qa
+soa:  
+  port: 80
+  sever: qa-soa.qualifacts.com
+mule:
+  port: 80
+  sever: qa-mule.qualifacts.com
+---
+spring:  
+  profiles: prd
+soa:  
+  port: 80
+  sever: prd-soa.qualifacts.com
+mule:
+  port: 80
+  sever: prd-mule.qualifacts.com
