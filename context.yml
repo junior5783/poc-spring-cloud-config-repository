@@ -2,42 +2,42 @@ configuration:
   projectName: server
 soa:
     context:  
-      product: ${soa.server}/product-api
-      loan-management: ${soa.server}/loan-management-api
+      product: /product-api
+      loan-management: /loan-management-api
 mule:
     context:  
-      product: ${soa.server}/product-api
-      loan-management: ${soa.server}/loan-management-api
+      product: /product-api
+      loan-management: /loan-management-api
 --- 
 spring:  
   profiles: dev
 soa:
     context:  
-      product: ${soa.server}/product-api
-      loan-management: ${soa.server}/loan-management-api
+      product: /product-api
+      loan-management: /loan-management-api
 mule:
     context:  
-      product: ${soa.server}/product-api
-      loan-management: ${soa.server}/loan-management-api
+      product: /product-api
+      loan-management: /loan-management-api
 ---
 spring:  
   profiles: qa
 soa:
     context:  
-      product: ${soa.server}/product-api
-      loan-management: ${soa.server}/loan-management-api
+      product: /product-api
+      loan-management: /loan-management-api
 mule:
     context:  
-      product: ${soa.server}/product-api
-      loan-management: ${soa.server}/loan-management-api
+      product: /product-api
+      loan-management: /loan-management-api
 ---
 spring:  
   profiles: prd
 soa:
     context:  
-      product: ${soa.server}/product-api
-      loan-management: ${soa.server}/loan-management-api
+      product: /product-api
+      loan-management: /loan-management-api
 mule:
     context:  
-      product: ${soa.server}/product-api
-      loan-management: ${soa.server}/loan-management-api
+      product: /product-api
+      loan-management: /loan-management-api
