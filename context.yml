@@ -1,0 +1,43 @@
+configuration:  
+  projectName: server
+soa:
+    context:  
+      product: /product-api
+      loan-management: /loan-management-api
+mule:
+    context:  
+      product: /product-api
+      loan-management: /loan-management-api
+--- 
+spring:  
+  profiles: dev
+soa:
+    context:  
+      product: /product-api
+      loan-management: /loan-management-api
+mule:
+    context:  
+      product: /product-api
+      loan-management: /loan-management-api
+---
+spring:  
+  profiles: qa
+soa:
+    context:  
+      product: /product-api
+      loan-management: /loan-management-api
+mule:
+    context:  
+      product: /product-api
+      loan-management: /loan-management-api
+---
+spring:  
+  profiles: prd
+soa:
+    context:  
+      product: /product-api
+      loan-management: /loan-management-api
+mule:
+    context:  
+      product: /product-api
+      loan-management: /loan-management-api
