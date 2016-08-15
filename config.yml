@@ -1,0 +1,30 @@
+configuration:  
+  projectName: gateway-ui
+server:  
+  port: 80
+zuul:  
+  routes:
+    cats:
+      url: http://cat-service:9000
+      path: /cats/**
+      stripPrefix: false
+    dogs:
+      url: http://dog-service:9001
+      path: /dogs/**
+      stripPrefix: false
+---
+spring:  
+  profiles: development
+server:  
+  port: 8080
+zuul:  
+  routes:
+    cats:
+      url: http://localhost:9000
+      path: /cats/**
+      stripPrefix: false
+    dogs:
+      url: http://localhost:9001
+      path: /dogs/**
+      stripPrefix: false
+debug: true 
