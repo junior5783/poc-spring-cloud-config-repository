@@ -1,3 +1,9 @@
+configuration:  
+  projectName: server
+soa:
+  port: 8000
+  sever: dev-soa.qualifacts.com
+--- 
 spring:  
   profiles: dev
 soa:  
