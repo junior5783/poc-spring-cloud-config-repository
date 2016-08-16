@@ -2,31 +2,31 @@ configuration:
   projectName: server
 soa:
   port: 8000
-  sever: dev-soa.qualifacts.com
+  server: dev-soa.qualifacts.com
 --- 
 spring:  
   profiles: dev
 soa:  
   port: 80
-  sever: dev-soa.qualifacts.com
+  server: dev-soa.qualifacts.com
 mule:
   port: 80
-  sever: dev-mule.qualifacts.com
+  server: dev-mule.qualifacts.com
 ---
 spring:  
   profiles: qa
 soa:  
   port: 80
-  sever: qa-soa.qualifacts.com
+  server: qa-soa.qualifacts.com
 mule:
   port: 80
-  sever: qa-mule.qualifacts.com
+  server: qa-mule.qualifacts.com
 ---
 spring:  
   profiles: prd
 soa:  
   port: 80
-  sever: prd-soa.qualifacts.com
+  server: prd-soa.qualifacts.com
 mule:
   port: 80
-  sever: prd-mule.qualifacts.com
+  server: prd-mule.qualifacts.com
