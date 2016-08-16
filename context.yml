@@ -2,42 +2,42 @@ configuration:
   projectName: server
 soa:
     context:  
-      product: ${soa.server:server}/product-api
-      loan-management: ${soa.server:server}/loan-management-api
+      product: ${soa.server}/product-api
+      loan-management: ${soa.server}/loan-management-api
 mule:
     context:  
-      product: ${mule.server:server}/product-api
-      loan-management: ${mule.server:server}/loan-management-api
+      product: ${mule.server}/product-api
+      loan-management: ${mule.server}/loan-management-api
 --- 
 spring:  
   profiles: dev
 soa:
     context:  
-      product: ${soa.server:server}/product-api
-      loan-management: ${soa.server:server}/loan-management-api
+      product: ${soa.server}/product-api
+      loan-management: ${soa.server}/loan-management-api
 mule:
     context:  
-      product: ${mule.server:server}/product-api
-      loan-management: ${mule.server:server}/loan-management-api
+      product: ${mule.server}/product-api
+      loan-management: ${mule.server}/loan-management-api
 ---
 spring:  
   profiles: qa
 soa:
     context:  
-      product: ${soa.server:server}/product-api
-      loan-management: ${soa.server:server}/loan-management-api
+      product: ${soa.server}/product-api
+      loan-management: ${soa.server}/loan-management-api
 mule:
     context:  
-      product: ${mule.server:server}/product-api
-      loan-management: ${mule.server:server}/loan-management-api
+      product: ${mule.server}/product-api
+      loan-management: ${mule.server}/loan-management-api
 ---
 spring:  
   profiles: prd
 soa:
     context:  
-      product: ${soa.server:server}/product-api
-      loan-management: ${soa.server:server}/loan-management-api
+      product: ${soa.server}/product-api
+      loan-management: ${soa.server}/loan-management-api
 mule:
     context:  
-      product: ${mule.server:server}/product-api
-      loan-management: ${mule.server:server}/loan-management-api
+      product: ${mule.server}/product-api
+      loan-management: ${mule.server}/loan-management-api
