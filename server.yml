@@ -10,7 +10,7 @@ config:
 spring:  
   profiles: dev
 soa:  
-  port: 80
+  port: 443
   server: http://dev-soa.qualifacts.com
 mule:
   port: 80
