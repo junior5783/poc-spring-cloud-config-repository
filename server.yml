@@ -11,7 +11,7 @@ spring:
   profiles: dev
 soa:  
   port: 443
-  server: http://develop-soa.qualifacts.com
+  server: http://develop-kkkkk-soa.qualifacts.com
 mule:
   port: 80
   server: http://dev-mule.qualifacts.com
